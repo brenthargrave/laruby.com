@@ -1,0 +1,18 @@
+body {
+  background:url(/images/laruby.jpg) top left;
+}
+
+#main-container {
+  width:700px;
+  border:2px solid #f4f4f4;
+  padding:10px;
+  background-color:#fff;
+  margin:0 auto 0 auto;
+  position:relative;
+  top:120px;
+}
+
+#main-container h2 {
+  margin:2px;
+  color:#c5011a;
+}
