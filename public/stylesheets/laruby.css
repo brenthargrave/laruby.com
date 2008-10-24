@@ -7,6 +7,9 @@ a {
 h2 {
   color:#cc0000;
 }
+.redText {
+  color:#cc0000;
+}
 #global-content {
   width:1024px;
   margin:0px auto 0px auto;
@@ -53,4 +56,12 @@ h2 {
   margin:3px;
   padding:10px;
   background-color:#fff;
+}
+
+
+.seperator {
+  border-bottom:1px solid #ccc;
+  margin-top:10px;
+  height:1px;
+  overflow:hidden;
 }
