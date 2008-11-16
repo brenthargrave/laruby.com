@@ -1,5 +1,7 @@
 html, body {
   background-color:#f4f4f4;
+  margin:0px;
+  padding:0px;
 }
 a {
   color:#cc0000;
@@ -9,6 +11,36 @@ h2 {
 }
 .redText {
   color:#cc0000;
+}
+#laruby-logo {
+ margin:0px 10px;;
+ padding:0px;
+ float:left;
+}
+#next-meetup {
+  float:left;
+  margin:20px 10px;
+}
+.nxm-title {
+  font-weight:bold;
+  font-size:24px;
+}
+.nxm-date {
+  font-size:46px;
+  letter-spacing:-2px;
+}
+.nxm-time {
+  font-size:36px;
+  letter-spacing:-2px;
+}
+.nxm-location {
+  font-size:36px;
+  letter-spacing:-2px;
+}
+.wb {
+  background-color:#fff;
+  width:99%;
+  margin-left:4px;
 }
 #global-content {
   width:1024px;
