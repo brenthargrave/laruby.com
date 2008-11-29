@@ -1,5 +1,3 @@
-require File.dirname(__FILE__) + "/../../lib/RSSFeed.rb"
-
 class Public < Application
 
   # ...and remember, everything returned from an action
