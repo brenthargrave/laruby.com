@@ -30,13 +30,26 @@ h2 {
   letter-spacing:-2px;
 }
 .nxm-time {
-  font-size:36px;
-  letter-spacing:-2px;
+  font-size:14px;
+  margin:0px 0px 0px 7px;  
+  color:#666;   
 }
 .nxm-location {
-  font-size:36px;
-  letter-spacing:-2px;
+  margin:10px 0px 0px 7px;
 }
+.nxm-location h2 {
+  font-size:24px;
+  margin:0px 0px 0px 0px;
+  padding:0px;
+}
+.nxm-location p {
+  font-size:14px;
+  margin:0px;
+  padding:0px;
+  font-style:italic;
+  color:#666;  
+}
+
 .wb {
   background-color:#fff;
   width:99%;
