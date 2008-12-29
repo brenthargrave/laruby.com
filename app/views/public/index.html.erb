@@ -1,9 +1,20 @@
 <div id="first-row">
   <%= @rss_feed.to_html %>
-</div>
+</div> 
 
 <div id="second-row">
-  <div id="meetup">
+<div id="meetup">
+   <h2>Next Meetup:<br />Thursday, Jan 15, 2008 7:00 PM</h2>
+   <p><strong>Location:</strong><br />
+  	<strong>TBD</strong><br />
+		<br />
+	</p>
+<br />
+</div>
+
+<div class="seperator"></div> 
+
+<div id="meetup">
     <h2>Next Meetup:<br />Thursday, Dec 18, 2008 7:00 PM</h2>
     <p><strong>Location:</strong><br />
    	<strong><%= link_to "The Americana at Brand", "http://www.americanaatbrand.com/", {:target => "_blank"} %></strong><br />
