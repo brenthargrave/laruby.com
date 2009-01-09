@@ -1,0 +1,20 @@
+!!! Strict
+%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %meta{ :content => "text/html;charset=UTF-8", "http-equiv" => "content-type" }
+    %title
+      Los Angeles Ruby | LARuby.com
+    = css_include_tag :laruby
+    %script{ :src => "http://laruby.uservoice.com/pages/general/widgets/tab.js?alignment=left&amp;color=be1a02", :type => "text/javascript" }
+  %body
+    #global-content.clear
+      = partial "layout/header"
+      = catch_content :for_layout
+    %script{ :type => "text/javascript" }
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    %script{ :type => "text/javascript" }
+      try {
+      var pageTracker = _gat._getTracker("UA-443731-5");
+      pageTracker._trackPageview();
+      } catch(err) {}
