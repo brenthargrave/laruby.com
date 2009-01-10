@@ -1,6 +1,7 @@
 class Calendar  
   ICAL = {
-    :laruby => "http://www.google.com/calendar/ical/up437j171tsavlnammjrbnbpak%40group.calendar.google.com/public/basic.ics"
+    # http://www.google.com/calendar/ical/up437j171tsavlnammjrbnbpak%40group.calendar.google.com/public/basic.ics
+    :laruby => "http://www.google.com/calendar/ical/laruby.com_ohffusb1f8u53j0ord0jlnpqm8%40group.calendar.google.com/public/basic.ics"
   }
   
   def initialize(ical_name)
