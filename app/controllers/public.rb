@@ -1,9 +1,12 @@
 class Public < Application
-
-  # ...and remember, everything returned from an action
-  # goes to the client...
+  
   def index
-     @rss_feed = RSSFeed.new(:laruby)
+    @rss_feed = RSSFeed.new(:laruby)
+    
+    @calendar = Calendar.new(:laruby)
+    @meetups = @calendar.events_by_start
+    @next_meetup = @meetups.first
+    
     render
   end
   
